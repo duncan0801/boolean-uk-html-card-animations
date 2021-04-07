@@ -122,20 +122,19 @@ h3 {
 }
 
 .middle .button:hover {
-  animation: wiggle 0.3s 3;
+  animation: wiggle 0.5s 3;
+  transform: scale(1.1);
   background: -webkit-linear-gradient(right, #ef47cb 0%, #602372 100%);
 }
 
 @keyframes wiggle {
   25% {
-    transform: rotate(2deg);
-    transform: scale(1.03);
+    transform: rotate(2deg) scale(1.03);
     background: -webkit-linear-gradient(right, #47efa1 0%, #23723b 100%);
   }
 
   75% {
-    transform: rotate(-2deg);
-    transform: scale(1.1);
+    transform: scale(1) rotate(-2deg);
   }
 }
 
