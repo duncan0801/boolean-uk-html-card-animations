@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 50px 2fr auto;
+  grid-auto-columns: auto;
+
+  border: 1px black solid;
+  border-radius: 5px;
+
+  margin: 2rem;
+}
+
+/* CARD - TOP SECTION */
+.top {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+
+  justify-content: right;
+}
+.top-icon {
+  width: 50px;
+
+  margin: 1rem;
+}
+
+/* CARD - MIDDLE SECTION */
+.middle img {
+}
+
+/* BOTTOM/ SOCIALS SECTION */
+.logo {
+  width: 100px;
+}
+
+.top a {
+  border: 1px black solid;
+}
